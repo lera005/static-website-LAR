@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Website for Docker-Test">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Leon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/javascript.js">
+    <title>Docker-web-LAR</title>
+</head>
+
+<body>
+    <div id="title-div">
+        <h1>Docker-Web</h1>
+    </div>
+    <div id="kachel-1">
+        <div id="kachel-1-con">
+            <p>What is in general Docker?</p>
+            <button type="button" class="button-arrow-kacheln" onclick="goTo1()">t</button>
+        </div>
+    </div>
+    <div id="kachel-2">
+        <div id="kachel-2-con">
+            <p>What are the pros of Docker?</p>
+            <button type="button" class="button-arrow-kacheln" onclick="goTo2()">t</button>
+        </div>
+    </div>
+    <div id="kachel-3">
+        <div id="kachel-3-con">
+            <p>What can you do with Docker?</p>
+            <button type="button" class="button-arrow-kacheln" onclick="goTo3()">t</button>
+        </div>
+    </div>
+    <div id="content-1">
+        <h2>What is in general Docker?</h2>
+        <p class="text">Docker is a free software for isolating applications using container virtualization. Docker simplifies application deployment because containers containing all the necessary packages can be easily transported and installed as files.</p>
+        <p>Docker is a platform that enables developers to easily create, deploy, and run applications in containers. A container is a lightweight, standalone executable package of software that includes everything needed to run an application, including code, runtime, system tools, libraries, and settings.</p>
+
+        <p> Docker provides a standardized way to package and distribute applications, making it easier to deploy applications across multiple environments, from development to production. It isolates applications from the underlying infrastructure, allowing them to run consistently across different environments.</p>
+        <button type="button" class="back-bt" onclick="goUp()">Back</button>
+    </div>
+    <div id="content-2">
+        <h2>What are the pros of Docker?</h2>
+        <p class="text">Portability: Docker containers are lightweight and can run on any operating system that supports Docker. This makes it easy to move applications between different environments, such as development, testing, and production. </p>
+
+          <p class="text">Isolation: Docker containers provide a high degree of isolation between applications and the host operating system. This means that applications running inside a container are less likely to interfere with other applications or the host operating system. </p>
+            
+          <p class="text">Efficiency: Docker containers are very efficient because they share the host operating system's kernel. This means that you can run multiple containers on a single host, which saves resources and reduces costs.</p>
+            
+          <p class="text">Consistency: Docker provides a consistent environment for applications, regardless of where they are running. This means that you can be sure that your application will run the same way on any machine that supports Docker.</p>
+            
+          <p class="text">Scalability: Docker makes it easy to scale your applications up or down, depending on your needs. You can quickly spin up new containers to handle increased traffic or spin down containers when traffic decreases.</p>
+        <button type="button" class="back-bt" onclick="goUp()">Back</button>
+    </div>
+    <div id="content-3">
+        <h2>What can you do with Docker?</h2>
+        <p>With Docker, you can:</p>
+        <p>Build applications: Docker provides a platform for building applications in containers, which can be easily shared, tested, and deployed.</p>
+        <p>Package applications: Docker allows you to package applications and their dependencies into a container image, which can be distributed and deployed across multiple environments.</p>
+        <p>Run applications: Docker enables you to run applications in containers, which provides a consistent and isolated environment for running applications.</p>
+        <button type="button" class="back-bt" onclick="goUp()">Back</button>
+    </div>
+    <div id="space">
+
+    </div>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
